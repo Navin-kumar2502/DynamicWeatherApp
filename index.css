@@ -16,7 +16,7 @@ html,body{
     height:100%;
 }
 html{
-    background: lightblue;
+    background: rgb(138, 196, 215);
 }
 .box{
     width:20vw;
