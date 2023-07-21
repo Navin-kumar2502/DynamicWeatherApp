@@ -1,7 +1,7 @@
 const http=require('http');
 const fs=require('fs');
 var requests = require('requests');
-const homeFile=fs.readFileSync('index.html',"UTF-8");
+const homeFile=fs.readFileSync('index.html' + './index.html',"UTF-8");
 const replaceVal=(tempVal,orgVal)=>{
     let tempe=tempVal.replace("{%tempval%}",orgVal.main.temp);
     tempe=tempe.replace("{%tempmin%}",orgVal.main.temp_min);
